@@ -1,5 +1,9 @@
 # E-Commerce Customer Lifetime Value (CLV) & Segmentation
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+
 A production-quality, beginner-friendly Machine Learning project that segments
 e-commerce customers with **K-Means Clustering** and predicts their **Customer
 Lifetime Value (CLV)** with **Linear Regression**, wrapped in an interactive
@@ -19,6 +23,22 @@ Lifetime Value (CLV)** with **Linear Regression**, wrapped in an interactive
 - A companion Jupyter notebook that mirrors the full pipeline for exploration.
 - Fully deployable on Streamlit Community Cloud (relative paths, pinned
   dependencies, no hardcoded local paths).
+
+---
+
+## Screenshots
+
+**Home**
+
+![Home Page](screenshots/home_page.png)
+
+**Customer Segmentation**
+
+![Customer Segmentation Page](screenshots/segmentation_page.png)
+
+**Predict Customer Lifetime Value**
+
+![Prediction Page](screenshots/prediction_page.png)
 
 ---
 
@@ -130,6 +150,11 @@ ECommerce_CLV_Segmentation/
 │     linear_regression_model.pkl
 │     regression_scaler.pkl
 │
+│── screenshots/
+│     home_page.png
+│     segmentation_page.png
+│     prediction_page.png
+│
 │── app.py
 │── preprocessing.py
 │── segmentation.py
@@ -151,6 +176,11 @@ python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+`requirements.txt` is pinned to stable releases compatible with **Python 3.9–3.12**
+(verified against **Python 3.11/3.12** in a clean virtual environment):
+`pandas==2.2.2`, `numpy==1.26.4`, `scikit-learn==1.4.2`, `matplotlib==3.8.4`,
+`seaborn==0.13.2`, `streamlit==1.35.0`.
 
 ## Local Execution
 

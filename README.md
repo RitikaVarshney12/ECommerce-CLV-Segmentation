@@ -30,15 +30,15 @@ Lifetime Value (CLV)** with **Linear Regression**, wrapped in an interactive
 
 **Home**
 
-![Home Page](screenshots/home_page.png)
+![Home Page]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2026-07-24 121449.png")
 
 **Customer Segmentation**
 
-![Customer Segmentation Page](screenshots/segmentation_page.png)
+![Customer Segmentation Page]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2026-07-24 121543.png")
 
 **Predict Customer Lifetime Value**
 
-![Prediction Page](screenshots/prediction_page.png)
+![Prediction Page]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2026-07-24 121608.png")
 
 ---
 
